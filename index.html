@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urna de propuestas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <div class="card" id="card">
+      <div class="status" id="status">Cargando respuestas...</div>
+
+      <section class="content hidden" id="content">
+        <h1 id="nombreArtistico">Nombre artístico</h1>
+        <p id="altoConcepto">Alto concepto</p>
+        <p id="name">Nombre</p>
+      </section>
+
+      <section class="message" id="message">
+        <p>Presiona la barra espaciadora para comenzar.</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
